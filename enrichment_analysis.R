@@ -19,7 +19,7 @@ genes <- getBM(attributes = 'entrezgene_id',
                 )
 
 # Преобразование единственного столбца датафрейма genes в формат,
-# воспринимаемый нижеиспользуемыми фунцкциями
+# воспринимаемый нижеиспользуемыми функциями
 pull <- dplyr::pull(genes, 'entrezgene_id')
   
 # GO enrichment + график
