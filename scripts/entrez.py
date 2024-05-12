@@ -5,7 +5,6 @@ from pandas import read_excel
 
 
 def get_records(query):
-    # Загружаем записи из GenBank по запросу из переменной 'query'
     Entrez.email = "yakrit2013@yandex.ru"
 
     # Поиск в базе NCBI Gene, сохранение результатов в rec
