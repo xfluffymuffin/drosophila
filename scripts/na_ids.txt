@@ -1,0 +1,178 @@
+Species: M.luteus
+Regulation type: down
+miRNA: let-7-5p
+Path to file: D:\microRNA\scripts\Mluteus_down_microRNA_targets\entrez_id_let-7-5p.predicted_targets.csv
+No IDs missing
+
+Species: M.luteus
+Regulation type: down
+miRNA: miR-1-3p
+Path to file: D:\microRNA\scripts\Mluteus_down_microRNA_targets\entrez_id_miR-1-3p.predicted_targets.csv
+IDs missing for following genes:
+	l(2)gd1
+	pre-mod(mdg4)-T
+
+Species: M.luteus
+Regulation type: down
+miRNA: miR-10-5p
+Path to file: D:\microRNA\scripts\Mluteus_down_microRNA_targets\entrez_id_miR-10-5p.predicted_targets.csv
+No IDs missing
+
+Species: M.luteus
+Regulation type: down
+miRNA: miR-125-5p
+Path to file: D:\microRNA\scripts\Mluteus_down_microRNA_targets\entrez_id_miR-125-5p.predicted_targets.csv
+IDs missing for following genes:
+	l(3)neo38
+
+Species: M.luteus
+Regulation type: down
+miRNA: miR-184-5p
+Path to file: D:\microRNA\scripts\Mluteus_down_microRNA_targets\entrez_id_miR-184-5p.predicted_targets.csv
+IDs missing for following genes:
+	l(1)G0469
+	pre-mod(mdg4)-H
+	pre-mod(mdg4)-N
+	pre-mod(mdg4)-B
+	l(3)07882
+	fs(1)h
+	l(2)01289
+	fs(1)N
+
+Species: M.luteus
+Regulation type: down
+miRNA: miR-279-3p_286-3p_996-3p
+Path to file: D:\microRNA\scripts\Mluteus_down_microRNA_targets\entrez_id_miR-279-3p_286-3p_996-3p.predicted_targets.csv
+IDs missing for following genes:
+	l(3)neo38
+
+Species: M.luteus
+Regulation type: down
+miRNA: miR-283-3p
+Path to file: D:\microRNA\scripts\Mluteus_down_microRNA_targets\entrez_id_miR-283-3p.predicted_targets.csv
+IDs missing for following genes:
+	l(2)k09913
+	l(1)G0196
+	pre-mod(mdg4)-N
+	E(spl)mbeta-HLH
+	pre-mod(mdg4)-H
+	pre-mod(mdg4)-Y
+	pre-mod(mdg4)-B
+	l(2)35Cc
+	l(2)09851
+	l(1)G0193
+
+Species: M.luteus
+Regulation type: down
+miRNA: miR-285-3p_995-3p_998-3p
+Path to file: D:\microRNA\scripts\Mluteus_down_microRNA_targets\entrez_id_miR-285-3p_995-3p_998-3p.predicted_targets.csv
+IDs missing for following genes:
+	l(1)G0469
+
+Species: M.luteus
+Regulation type: down
+miRNA: miR-306-3p
+Path to file: D:\microRNA\scripts\Mluteus_down_microRNA_targets\entrez_id_miR-306-3p.predicted_targets.csv
+IDs missing for following genes:
+	l(3)04053
+	l(3)05822
+	l(3)07882
+	1-Dec
+	l(1)G0004
+
+Species: M.luteus
+Regulation type: down
+miRNA: miR-317-5p
+Path to file: D:\microRNA\scripts\Mluteus_down_microRNA_targets\entrez_id_miR-317-5p.predicted_targets.csv
+IDs missing for following genes:
+	l(3)04053
+	l(1)G0320
+	2-Sep
+	Glycogenin
+
+Species: M.luteus
+Regulation type: down
+miRNA: miR-9a-5p_9b-5p_9c-5p
+Path to file: D:\microRNA\scripts\Mluteus_down_microRNA_targets\entrez_id_miR-9a-5p_9b-5p_9c-5p.predicted_targets.csv
+IDs missing for following genes:
+	l(3)neo38
+
+Species: M.luteus
+Regulation type: up
+miRNA: miR-190-5p
+Path to file: D:\microRNA\scripts\Mluteus_up_microRNA_targets\entrez_id_miR-190-5p.predicted_targets.csv
+IDs missing for following genes:
+	E(spl)m6-BFM
+	1-Sep
+	pre-mod(mdg4)-AB
+	pre-mod(mdg4)-C
+	l(1)G0193
+
+Species: M.luteus
+Regulation type: up
+miRNA: miR-984-5p
+Path to file: D:\microRNA\scripts\Mluteus_up_microRNA_targets\entrez_id_miR-984-5p.predicted_targets.csv
+IDs missing for following genes:
+	l(3)72Dp
+
+Species: E.coli
+Regulation type: up
+miRNA: miR-iab-4-5p
+Path to file: D:\microRNA\scripts\Ecoli_up_microRNA_targets\entrez_id_miR-iab-4-5p.predicted_targets.csv
+IDs missing for following genes:
+	l(3)neo38
+
+Species: E.coli
+Regulation type: down
+miRNA: miR-1-3p
+Path to file: D:\microRNA\scripts\Ecoli_down_microRNA_targets\entrez_id_miR-1-3p.predicted_targets.csv
+IDs missing for following genes:
+	l(2)gd1
+	pre-mod(mdg4)-T
+
+Species: E.coli
+Regulation type: down
+miRNA: miR-10-5p
+Path to file: D:\microRNA\scripts\Ecoli_down_microRNA_targets\entrez_id_miR-10-5p.predicted_targets.csv
+No IDs missing
+
+Species: E.coli
+Regulation type: down
+miRNA: miR-283-3p
+Path to file: D:\microRNA\scripts\Ecoli_down_microRNA_targets\entrez_id_miR-283-3p.predicted_targets.csv
+IDs missing for following genes:
+	l(2)k09913
+	l(1)G0196
+	pre-mod(mdg4)-N
+	E(spl)mbeta-HLH
+	pre-mod(mdg4)-H
+	pre-mod(mdg4)-Y
+	pre-mod(mdg4)-B
+	l(2)35Cc
+	l(2)09851
+	l(1)G0193
+
+Species: E.coli
+Regulation type: down
+miRNA: miR-965-5p_1001-5p
+Path to file: D:\microRNA\scripts\Ecoli_down_microRNA_targets\entrez_id_miR-965-5p_1001-5p.predicted_targets.csv
+IDs missing for following genes:
+	l(3)72Dn
+	Su(var)205
+	l(2)k09913
+	Su(var)3-9
+	pre-mod(mdg4)-B
+	pre-mod(mdg4)-AB
+	l(1)G0004
+	l(3)L1231
+	pre-mod(mdg4)-C
+	l(2)k09848
+	l(2)37Cc
+
+Species: E.coli
+Regulation type: down
+miRNA: miR-9a-5p_9b-5p_9c-5p
+Path to file: D:\microRNA\scripts\Ecoli_down_microRNA_targets\entrez_id_miR-9a-5p_9b-5p_9c-5p.predicted_targets.csv
+IDs missing for following genes:
+	l(3)neo38
+
