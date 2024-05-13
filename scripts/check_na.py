@@ -1,5 +1,5 @@
 # This program checks for NA values in the ID column and prints corresponding gene names.
-# Those gene names can be used for manual ID search
+# Those gene names can be used for manual (or automated, perhaps) ID search
 
 import os
 import pandas as pd
