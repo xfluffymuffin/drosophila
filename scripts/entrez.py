@@ -17,7 +17,15 @@ def get_records(query):
         try:
             outfile.write(f"{query[1:].rsplit('[')[0]},{rec["IdList"][0]}\n")
         except IndexError:
-            outfile.write(f"{query[1:].rsplit('[')[0]},NA\n")
+            add_id = pd.read_csv(r"D:\microRNA\scripts\all_problematic_genes_FIXED.csv")
+            add_ids = []
+
+            for index, row in add_id.iterrows():
+                add_ids.append(f"{row['gene_name']}={row['entrez_id']}")
+
+            for id in add_ids:
+                if query[1:].rsplit('[')[0] in id:
+                    outfile.write(f"{query[1:].rsplit('[')[0]},{id.split("=")[1]}\n")
 
 
 def get_gene_names(inp):
@@ -36,8 +44,7 @@ def get_gene_names(inp):
         get_records(f"({name}[Gene Name]) AND Drosophila melanogaster[Organism]")
 
 # Программа анализирует все *.xlsx файлы в указанной папке
-target_scan_dir = r"D:\microRNA\analysis_filtered\TargetScan_data\Ecoli\down\*.xlsx"
+target_scan_dir = r"D:\microRNA\analysis_filtered\TargetScan_data\Mluteus\down\*.xlsx"
 
 for filepath in glob.iglob(target_scan_dir):
     get_gene_names(filepath)
-    
