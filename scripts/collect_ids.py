@@ -3,7 +3,7 @@ import pandas as pd
 
 
 def collect_id(path):
-    with open("id_coll_dupl.txt", "a") as ids:
+    with open(f"{scan_dir.split('\\')[3]}_dupl.txt", "a") as ids:
         for line in pd.read_csv(path)["entrez_id"]:
             ids.write(str(line) + "\n")
 
@@ -11,11 +11,11 @@ def collect_id(path):
 def del_duplicates():
     clean_list = []
 
-    with open("id_coll_dupl.txt", "r") as dupl:
+    with open(f"{scan_dir.split('\\')[3]}_dupl.txt", "r") as dupl:
         for line in dupl.readlines():
             clean_list.append(line.strip("\n"))
 
-    with open("id_coll.txt", "w") as fin:
+    with open(f"{scan_dir.split('\\')[3]}.txt", "w") as fin:
         for id in set(clean_list):
             fin.write(id+"\n")
 
