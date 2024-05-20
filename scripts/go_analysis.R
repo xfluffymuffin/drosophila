@@ -6,8 +6,8 @@ genes <- read.table("D:\\microRNA\\scripts\\Mluteus_down_microRNA_targets\\Mlute
 
 g_pull <- dplyr::pull(genes, 'V1')
 
-
 go_an <- enrichGO(g_pull, org.Dm.eg.db, pvalueCutoff= 1,
                   pAdjustMethod = "none",
                   qvalueCutoff = 1)
+
 dotplot(go_an)
