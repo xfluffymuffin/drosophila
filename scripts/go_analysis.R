@@ -4,8 +4,6 @@ library(clusterProfiler)
 
 genes <- read.table("D:\\microRNA\\scripts\\Mluteus_down_microRNA_targets\\Mluteus_down_microRNA_targets.txt")
 
-print(genes)
-
 g_pull <- dplyr::pull(genes, 'V1')
 
 
