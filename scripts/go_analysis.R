@@ -16,7 +16,7 @@ go_an <- enrichGO(g_pull, org.Dm.eg.db,
 kegg <- enrichKEGG(g_pull,
                           organism = 'dme',
                           keyType = 'ncbi-geneid',
-                          pvalueCutoff= 1,
+                          pvalueCutoff= 0.05,
                           pAdjustMethod = "none",
                           qvalueCutoff = 1)
 
