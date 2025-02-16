@@ -15,7 +15,7 @@ def download_progress(block_num, block_size, total_size):
 
     downloaded = block_num * block_size
     percent = min(downloaded / total_size * 100, 100)
-    print(f"\rDownloading requested database: {percent:.2f}% ({downloaded}/{total_size} байт)", end="")
+    print(f"\rDownloading requested database: {percent:.2f}% ({downloaded}/{total_size} bytes)", end="")
 
 
 def download_db(db):
