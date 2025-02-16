@@ -1,0 +1,15 @@
+dme-miR-1-3p
+dme-miR-10-5p
+dme-miR-283-3p
+dme-miR-9a-5p
+dme-miR-iab-4-5p
+dme-miR-965-5p
+dme-miR-190-5p
+dme-miR-984-5p
+dme-let-7-5p
+dme-miR-125-5p
+dme-miR-184-5p
+dme-miR-279-3p
+dme-miR-306-3p
+dme-miR-317-5p
+dme-miR-998-3p
